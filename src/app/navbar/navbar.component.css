@@ -1,0 +1,31 @@
+.navbar {
+  position: fixed;
+  height: 10vh;
+  width: 100vw;
+  top: 0;
+  background-color: black;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container {
+  width: 85vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+.text {
+  font-family: "Anonymous Pro";
+  font-size: calc(1vw + 1vh);
+  color: white;
+  cursor: pointer;
+}
+
+.text:hover {
+  text-decoration: underline;
+}
