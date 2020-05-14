@@ -13,11 +13,10 @@
 }
 
 .image {
-  height: auto;
-  width: auto;
-  max-width: 65%;
-  transform: rotate(90deg);
-  margin-left: -5px;
+  height: 75vmin;
+  width: 75vmin;
+  /* transform: rotate(90deg); */
+  /* margin-left: -5px; */
   z-index: 0;
 }
 

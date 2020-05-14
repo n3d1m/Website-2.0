@@ -27,5 +27,13 @@
 }
 
 .text:hover {
-  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.text:active {
+  opacity: 0.5;
+}
+
+.text:focus {
+  outline: 0;
 }

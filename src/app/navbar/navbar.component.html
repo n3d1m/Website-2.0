@@ -1,7 +1,15 @@
 <div class="navbar">
   <div class="header-container">
-    <div *ngFor="let i of headers" class="text">
-      {{ i }}
+    <div
+      *ngFor="let i of headers"
+      [ngStyle]="{
+        'text-decoration': i.name == this.name ? 'underline' : 'none'
+      }"
+      class="text"
+      [routerLink]="i.path"
+      (click)="changeTitle(i.name)"
+    >
+      {{ i.name }}
     </div>
   </div>
 </div>
